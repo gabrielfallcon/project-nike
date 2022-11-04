@@ -1,0 +1,17 @@
+.images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.item {
+   width: 494px;
+   height: 397px;
+   display: flex;
+   align-items: flex-end;
+   padding-bottom: 49px ;
+   justify-content: center;
+   background-image: url("../img/tenis.png");
+   background-size: cover;
+
+}       
