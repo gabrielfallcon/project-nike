@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
 }
-.item{ width: 494px;
+.item { 
+  width: 494px;
   height: 397px;
   display: flex;
   align-items: flex-end;
@@ -16,14 +17,14 @@
 .item1 {
    background-image: url("../img/tenis.png");
 }   
-.item2{
+.item2 {
   background-image: url("../img/tenis\ 2.png");
 }   
-.item3{ 
+.item3 { 
   background-image: url("../img/tenis\ 3.png");
 }
 
-.box-text{
+.box-text {
   width: 336px;
   height: 109px;
   display: flex;
@@ -35,7 +36,7 @@
   border: 1px solid #ffffff;
 }
 
-.text{ 
+.text { 
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -43,7 +44,7 @@
   color: #ffffff;
 }
 
-.link{
+.link {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
