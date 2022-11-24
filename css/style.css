@@ -2,10 +2,11 @@
   font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  
 }
 
-.content-principal {
+/* ====================== SECTION 01 - KEVERTON ====================== */
+
+.first-page {
   width: 100%;
   height: 896px;
   display: flex;
@@ -14,7 +15,7 @@
   justify-content: flex-start;
   align-items: center;
   background-image: url("../image/cropped.png");
-  background-size: 100% 100% ;
+  background-size: cover;
 }
 
 header {
@@ -22,16 +23,17 @@ header {
   height: 92px;
   display: flex;
   align-items: center;
-  border-bottom: solid 1px rgba(255,255,255, 0.4);
+  justify-content: center;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.4);
 }
 
-.logo {
+.first-page-logo {
   width: 80px;
   height: 28.63px;
   margin-left: 79px;
 }
 
-.menu {
+.first-page-menu {
   width: 548px;
   height: 34px;
   display: flex;
@@ -41,7 +43,7 @@ header {
   font-family: lato;
   font-weight: bold;
   font-size: 18px;
-  color: #000 ;  
+  color: #000;
   list-style: none;
 }
 
@@ -66,7 +68,7 @@ header {
 
 .heart {
   width: 27.13px;
-  height: 23px; 
+  height: 23px;
 }
 
 .carrinho {
@@ -104,7 +106,7 @@ header {
 .circle-description {
   font-weight: normal;
   color: #fff;
-  font-family: bebas neue; 
+  font-family: bebas neue;
   font-size: 30px;
   border-bottom: solid 1px #fff;
 }
@@ -115,20 +117,20 @@ header {
   padding: 25px;
 }
 
-.circle-subtitle{
+.circle-subtitle {
   font-weight: normal;
   color: #fff;
-  font-family: bebas neue; 
-  font-size: 48px;  
+  font-family: bebas neue;
+  font-size: 48px;
   padding-bottom: 20px;
 }
 
-.circle-box-button button{
+.circle-box-button button {
   width: 138px;
   height: 60px;
   justify-content: space-around;
   background: #fff;
-  font-family: lato; 
+  font-family: lato;
   text-transform: uppercase;
   font-size: 20px;
   color: #000;
@@ -136,91 +138,36 @@ header {
   border: none;
   text-align: center;
   margin: 0 23.5px;
-} 
-
-/* ========================= FOOTER ========================= */
-
-footer {
-  width: 100%;
-  height: 607px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  background-color: aquamarine;
 }
 
-.image-description {
-  width: 100%;
-  height: 194px;
-  display: flex;
-  border: solid 1px #000;
- 
-}
+/* ================== SECTION 02 - KEVIN ========================= */
 
-.image-retangulo {
-  width: 347.89px;
-  height: 194px;
-}
-
-.image-triangulo {
-  width: 347.17px;
-  height: 195px;
-  margin-left: 174px;
-  position: absolute;
-}
-
-.cinzento {
-  width: 1049px;
-  height: 143px;
-  display: flex;
-  margin: 51px 0 0 45px;
-  background-color: #8C8C8C;
-}
-
-.message {
-  width: 60.75px;
-  height: 46.25px;
-}
-
-.join {
-  width: 237px;
-  height: 58px;
-  font-family: barlow;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: #434040;
-  border: none;
-  border-radius: 40px;
-}
-
-.footer-principal {
-  width: 100%;
-  height: 50px;
-  background-color: blue;
-}
 .images {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.item { 
+
+.item {
   width: 494px;
   height: 397px;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 49px ;
+  padding-bottom: 49px;
   justify-content: center;
   background-size: cover;
 }
 
 .item1 {
-   background-image: url("../img/tenis.png");
-}   
+  background-image: url("../img/tenis.png");
+}
+
 .item2 {
   background-image: url("../img/tenis\ 2.png");
-}   
-.item3 { 
+}
+
+.item3 {
   background-image: url("../img/tenis\ 3.png");
 }
 
@@ -236,21 +183,315 @@ footer {
   border: 1px solid #ffffff;
 }
 
-.text { 
+.text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24.38px;
   color: #ffffff;
 }
-
+  
 .link {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
-  line-height:19.5px;
+  line-height: 19.5px;
   color: #ffffff;
+}
+
+/* ====================== FOOTER - KEVERTON ====================== */
+
+footer {
+  width: 100%;
+  height: 607px;
+  display: flex;
+  margin-top: 58px;
+  flex-direction: column;
+}
+
+.footer-inicial {
+  width: 100%;
+  height: 194px;
+  display: flex;
+}
+
+.image-retangulo {
+  width: 347.89px;
+  height: 194px;
+}
+
+.image-triangulo {
+  width: 347.17px;
+  height: 196px;
+  margin-left: 174px;
+  position: absolute;
+}
+
+.cinzento {
+  width: 100%;
+  height: 143px;
+  display: flex;
+  margin: 51px 0 0 45px;
+  background-color: #8C8C8C;
+}
+
+.discount {
+  width: 520px;
+  height: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 129.75px;
+}
+
+.discount-text {
+  height: 82px;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 16px;
+  font-family: Barlow;
+  color: #fff;
+}
+
+.porcent-off {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.discount-image {
+  width: 75px;
+  height: 70px;
+}
+
+.nike-join {
+  position: absolute;
+  font-weight: 900;
+  font-size: 58px;
+  font-size: Barlow;
+  text-transform: uppercase;
+  color: #434040;
+  margin: 11px 0 0 1125px;
+}
+
+.join {
+  width: 237px;
+  height: 58px;
+  margin: 48px 0 0 45px;
+  font-family: barlow;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #434040;
+  text-align: center;
+  border: none;
+  border-radius: 40px;
+}
+
+.join:hover {
+  cursor: pointer;
+  background-color: rgba(66, 66, 66,0.7);
+  color: white;
+}
+
+.footer-principal {
+  width: 100%;
+  height: 307px;
+  display: flex;
+  padding-top: 64px;
+  justify-content: center;
+  gap: 80px;
+  background-color: #282828;
+}
+
+.receive {
+  width: 225px;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.receive-list{
+  list-style: none;
+  font-family: barlow;
+  font-size: 23px;
+  line-height: 35px;
+}
+
+.receive-list a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.buy {
+  width: 195px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buy h3{
+  font-family: Open Sans;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.buy-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: barlow;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+}
+
+.buy-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-list { 
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: barlow;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+}
+
+.about-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about h3{
+  font-family: Open Sans;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.subscribe {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between  ;
+}
+
+.subscribe-description {
+  text-align: start;
+  font-family: barlow;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 23px;
+}
+
+.subscribe h3 {
+  font-family: Open Sans;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.subscribe-email {
+  height: 30px;
+  width: 260px;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px rgba(255, 255, 255,0.5);
+}
+
+.subscribe-send{
+  width: 38px;
+  height: 34px;
+  display: flex;
+  margin: 146px 0 0 260px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  background-image: url(../image/send.png);
+  background-size: 50% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: solid 1px rgba(255, 255, 255,0.5);
+  transition-duration: 0.4s
+}
+
+.subscribe-send:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255,0.2);
+  color: white;
+}
+
+.footer-final {
+  width: 100%;
+  height: 106px;
+  display: flex;
+  padding-top: 30px;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #282828;
+  border-top: solid 1px #fff;
+}
+
+.rights-reserved {
+  font-family: barlow;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+}
+
+.terms {
+  width: 650px;
+  height: 18px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.terms-description {
+  width: 100%;
+  font-family: barlow;
+  font-size: 18px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+.terms-description a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  width: 219px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.social-image-instagram, .social-image-facebook, .social-image-twitter, .social-image-youtube {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%  ;
 }
 
 
