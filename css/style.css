@@ -200,13 +200,14 @@ header {
   color: #ffffff;
 }
 
-/*===================================section tchirt======================*/
+/*===================================section tshirt======================*/
 
 .tshirt {
   width: 100%;
   height: 703px;
   display: flex;
   border: solid 1px blue;
+  background-color: #e5e5e5;
 }
 
 .vestuario {
@@ -214,7 +215,6 @@ header {
   box-sizing: border-box;
   width: 821px;
   height: 100%;
-  border: solid 3px red;
   justify-content: space-around;
   padding: 75px 0 57px 0;
 }
@@ -234,7 +234,7 @@ header {
 .tshirt1 {
   width: 309px;
   height: 571px;
-  border: solid 1px #000;
+  box-sizing: border-box;
 }
 
 .tshirt1-image {
@@ -245,23 +245,44 @@ header {
 
 .tshirt1-stars {
   display: flex;
+  margin-top: 11px;
   justify-content: flex-end;
   width: 100%;
   height: 21px;
-  border: solid 1px #000;
-}
-
-.tshirt2-stars {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  height: 21px;
-  border: solid 1px #000;
 }
 
 .stars {
   width: 23px;
   height: 100%;
+}
+
+.tshirt1-description, .tshirt2-description{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+}
+
+.tshirt1-title, .tshirt2-title{
+  font-size: 14px;
+  font-family: montserrat;
+  color: #626262;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 3px;
+}
+
+.tshirt1-subtitle, .tshirt2-subtitle{
+  font-size: 18px;
+  font-family: montserrat;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.tshirt1-price, .tshirt2-price{
+  font-size: 18px;
+  font-family: montserrat;
+  font-weight: 800;
 }
 
 .tshirt2-image {
@@ -273,16 +294,40 @@ header {
 .tshirt2 {
   width: 309px;
   height: 571px;
-  border: solid 1px #000;
+}
+
+.tshirt2-stars {
+  display: flex;
+  margin-top: 11px;
+  justify-content: flex-end;
+  width: 100%;
+  height: 21px;
 }
 
 .basket {
   width: 619px;
   height: 100%;
   display: flex;
+  flex-direction: column;
   background-image: url(/image/basket.png);
-  border: solid 1px #000;
+
 }
+
+.basket-male {
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+  margin: 475px 432px 16px 61px;
+}
+
+.basket-button-more{
+  width: 243px;
+  height: 61px;
+  margin-left: 61px;
+  font-family: montserrat;
+  font-size: 16px;
+}
+
 
 /* ====================== FOOTER - KEVERTON ====================== */
 
