@@ -206,29 +206,41 @@ header {
   width: 100%;
   height: 703px;
   display: flex;
-  border: solid 1px blue;
   background-color: #e5e5e5;
 }
 
 .vestuario {
   display: flex;
   box-sizing: border-box;
-  width: 821px;
+  width: 825px;
   height: 100%;
   justify-content: space-around;
   padding: 75px 0 57px 0;
 }
 
 .button-vestuario-right {
-  width: 25px;
-  height: 25px;
+  width: 41px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 250px 20px 0 290px;
   position: absolute;
 }
 
 .button-vestuario-left {
-  width: 25px;
-  height: 25px;
+  width: 41px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
+  margin: 250px 20px 0 -20px;
+}
+
+.btn-vest-limg {
+  width: 15px;
+  height: 18px;
 }
 
 .tshirt1 {
@@ -256,13 +268,15 @@ header {
   height: 100%;
 }
 
-.tshirt1-description, .tshirt2-description{
+.tshirt1-description,
+.tshirt2-description {
   display: flex;
   flex-direction: column;
-  padding:0;
+  padding: 0;
 }
 
-.tshirt1-title, .tshirt2-title{
+.tshirt1-title,
+.tshirt2-title {
   font-size: 14px;
   font-family: montserrat;
   color: #626262;
@@ -272,14 +286,16 @@ header {
   margin-bottom: 3px;
 }
 
-.tshirt1-subtitle, .tshirt2-subtitle{
+.tshirt1-subtitle,
+.tshirt2-subtitle {
   font-size: 18px;
   font-family: montserrat;
   font-weight: 600;
   margin-bottom: 13px;
 }
 
-.tshirt1-price, .tshirt2-price{
+.tshirt1-price,
+.tshirt2-price {
   font-size: 18px;
   font-family: montserrat;
   font-weight: 800;
@@ -305,12 +321,13 @@ header {
 }
 
 .basket {
-  width: 619px;
+  width: 625px;
   height: 100%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   background-image: url(/image/basket.png);
-
+  background-size: cover;
 }
 
 .basket-male {
@@ -320,12 +337,24 @@ header {
   margin: 475px 432px 16px 61px;
 }
 
-.basket-button-more{
+.basket-button-more {
   width: 243px;
   height: 61px;
+  display: flex;
   margin-left: 61px;
   font-family: montserrat;
   font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3e3e3e;
+  border: none;
+}
+
+.basket-button-more:hover {
+  background-color: #585757;
 }
 
 
@@ -361,7 +390,7 @@ footer {
   width: 100%;
   height: 143px;
   display: flex;
-  margin: 51px 0 0 45px;
+  margin-top: 51px;
   background-color: #8C8C8C;
 }
 
