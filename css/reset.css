@@ -1,25 +1,5 @@
 * {
   margin: 0;
-  padding: 0
-  
-
-  /* 
-  example font beba Neue: 
-    font-family: 'Bebas Neue', cursive;
-
-  example font Lato:
-    font-family: 'Lato', sans-serif;
-
-  example font Montserrat:
-    font-family: 'Montserrat', sans-serif;
-
-  example font Roboto:
-    font-family: 'Roboto', sans-serif;
-
-  example font Barlow:
-    font-family: 'Barlow', sans-serif;
-
-  example font Barlow:
-    font-family: 'Open Sans', sans-serif;
-  */
+  padding: 0;
+  box-sizing: border-box; 
 }
