@@ -200,16 +200,16 @@ header {
   color: #ffffff;
 }
 
-/*===================================section tshirt======================*/
+/*===================== section tshirt male ==================*/
 
-.tshirt {
+.tshirt-male {
   width: 100%;
   height: 703px;
   display: flex;
   background-color: #e5e5e5;
 }
 
-.vestuario {
+.vestuario-male {
   width: 825px;
   height: 100%;
   display: flex;
@@ -253,7 +253,8 @@ header {
   background: url(/image/tshirt1.png);
 }
 
-.btn-tshirt-favorite, .btn-tshirt-search{
+.btn-tshirt-favorite,
+.btn-tshirt-search {
   width: 40px;
   height: 40px;
   display: flex;
@@ -271,13 +272,13 @@ header {
   margin: 295px 15px 0 250px;
 }
 
-.tshirt-image-favorite{
+.tshirt-image-favorite {
   width: 100%;
   height: 100%;
   padding: 6px;
-} 
+}
 
-.tshirt-image-search{
+.tshirt-image-search {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -390,6 +391,7 @@ header {
   width: 100%;
   height: 226px;
   background-image: url(/image/informative-background.png);
+  background-size: 100% 100%;
 }
 
 .background {
@@ -398,10 +400,13 @@ header {
   background: rgba(161, 8, 8, 0.5);
   display: flex;
   align-items: center;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
 
-.frete, .cupom, .recicle, .classification {
+.frete,
+.cupom,
+.recicle,
+.classification {
   width: 195px;
   height: 140px;
   display: flex;
@@ -433,12 +438,168 @@ header {
   margin-bottom: 7px;
 }
 
-.background p{
+.background p {
   font-family: montserrat;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
 }
+
+
+/* =================== tshirt female =======================*/
+
+.tshirt-female {
+  width: 100%;
+  height: 703px;
+  display: flex;
+  background-color: #e5e5e5;
+}
+
+.vestuario-female {
+  width: 825px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 75px 0 57px 0;
+}
+
+.button-vestuario-right-female {
+  width: 41px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 250px 20px 0 290px;
+  position: absolute;
+}
+
+.button-vestuario-left-female {
+  width: 41px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 250px 20px 0 -20px;
+}
+
+.btn-vest-limg-female {
+  width: 15px;
+  height: 18px;
+}
+
+.tshirt1-female {
+  width: 309px;
+  height: 571px;
+}
+
+.tshirt1-image-female {
+  width: 309px;
+  height: 466px;
+  background: url(/image/tshirt1-female.png);
+}
+
+.tshirt1-stars-female {
+  display: flex;
+  margin-top: 11px;
+  justify-content: flex-end;
+  width: 100%;
+  height: 21px;
+}
+
+.stars-female {
+  width: 23px;
+  height: 100%;
+}
+
+.tshirt1-description-female,
+.tshirt2-description-female {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.tshirt1-title-female,
+.tshirt2-title-female {
+  font-size: 14px;
+  font-family: montserrat;
+  color: #626262;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 3px;
+}
+
+.tshirt1-subtitle-female,
+.tshirt2-subtitle-female {
+  font-size: 18px;
+  font-family: montserrat;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.tshirt1-price-female,
+.tshirt2-price-female {
+  font-size: 18px;
+  font-family: montserrat;
+  font-weight: 800;
+}
+
+.tshirt2-image-female {
+  width: 309px;
+  height: 466px;
+  background: url(/image/tshirt2-female.png);
+}
+
+.tshirt2-female {
+  width: 309px;
+  height: 571px;
+}
+
+.tshirt2-stars-female {
+  display: flex;
+  margin-top: 11px;
+  justify-content: flex-end;
+  width: 100%;
+  height: 21px;
+}
+
+.gym {
+  width: 625px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/image/gym.png);
+  background-size: cover;
+}
+
+.gym-female {
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+  margin: 475px 432px 16px 61px;
+}
+
+.gym-button-more {
+  width: 243px;
+  height: 61px;
+  display: flex;
+  margin-left: 61px;
+  font-family: montserrat;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3e3e3e;
+  border: none;
+}
+
+.gym-button-more:hover {
+  background-color: #585757;
+}
+
 /* ====================== FOOTER - KEVERTON ====================== */
 
 footer {
