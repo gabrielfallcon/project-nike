@@ -140,38 +140,41 @@ header {
   margin: 0 23.5px;
 }
 
-/* ================== SECTION 02 - KEVIN ========================= */
+/* ================== SNEAKERS ========================= */
 
-.images {
+.sneakers {
   width: 100%;
+  height: 400px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.item {
-  width: 494px;
-  height: 397px;
+.sneakers-discount,
+.sneakers-new,
+.sneakers-colection {
+  width: 50em;
+  height: 400px;
   display: flex;
   align-items: flex-end;
   padding-bottom: 49px;
   justify-content: center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
-.item1 {
-  background-image: url("../img/tenis.png");
+.sneakers-discount {
+  background-image: url("../image/sneaker.png");
 }
 
-.item2 {
-  background-image: url("../img/tenis\ 2.png");
+.sneakers-new {
+  background-image: url("../image/sneaker2.png");
 }
 
-.item3 {
-  background-image: url("../img/tenis\ 3.png");
+.sneakers-colection {
+  background-image: url("../image/sneaker3.png");
 }
 
-.box-text {
+.sneakers-box-text {
   width: 336px;
   height: 109px;
   display: flex;
@@ -181,13 +184,13 @@ header {
   text-align: center;
   gap: 9px;
   border: 1px solid #ffffff;
+  border-radius: 5px
 }
 
-.text {
-  font-family: Arial, Helvetica, sans-serif;
+.sneakers-text {
+  font-family: MONTSERRAT;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24.38px;
   color: #ffffff;
 }
 
@@ -210,7 +213,7 @@ header {
 }
 
 .vestuario-male {
-  width: 825px;
+  width: 57%;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -350,7 +353,7 @@ header {
 }
 
 .basket {
-  width: 625px;
+  width: 43%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -456,7 +459,7 @@ header {
 }
 
 .vestuario-female {
-  width: 825px;
+  width: 57%;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -565,7 +568,7 @@ header {
 }
 
 .gym {
-  width: 625px;
+  width: 43%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -742,6 +745,54 @@ header {
   width: 100%;
   height: 100%;
 }
+
+/* ====================== line ====================== */
+
+.line {
+  display: flex;
+  width: 370px;
+  margin: 55px auto 55px auto;
+  border: solid 1px #E1E1E1;
+}
+
+/* ====================== SURFISTA ====================== */
+
+.surfist {
+  height: 660px;
+  width: 100%;
+  display: flex;
+}
+
+.surfist-image1 {
+  width: 56%;
+  height: 100%;
+  background-image: url(/image/surfist.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.surfist-image2 {
+  width: 44%;
+  height: 100%;
+}
+
+.surfist-image2 img {
+  width: 100%;
+  height: 470px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.change-world {
+  height: 190px;
+  font-size: 55px;
+  font-weight: 800;
+  font-family: barlow;
+  text-transform: uppercase;
+  letter-spacing: 3PX;
+}
+
 
 /* ====================== FOOTER - KEVERTON ====================== */
 
@@ -973,7 +1024,7 @@ footer {
 }
 
 .subscribe-send:hover {
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
